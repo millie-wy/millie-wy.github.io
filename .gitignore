@@ -1,0 +1,12 @@
+# dependencies
+node_modules
+
+# misc
+DS_Store
+.env
+data
+
+**/_admin.rest
+**/_contact.rest
+**/rest
+**/_project.rest
