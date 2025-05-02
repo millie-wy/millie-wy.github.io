@@ -13,7 +13,8 @@
     "heroku-postbuild": "npm run install-client && npm run build",
     "server": "nodemon server.js",
     "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run dev --prefix client\"",
-    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run dev --prefix client\""
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run dev --prefix client\"",
+    "deploy": "gh-pages -d client/dist"
   },
   "author": "Millie Cheung",
   "license": "ISC",
